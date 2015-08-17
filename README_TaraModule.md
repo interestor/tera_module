@@ -4,8 +4,7 @@
 各モジュール間で物質をやりとりし、生体間の物質循環の再現、モニタリング、ハックを行うことを目指しています。
 
 #含まれているファイル
-- HowToMake_TaraModule.md：材料・道具・作る手順を記載
-- ModelPattern_TaraModule.ai：設計・組み立てのための紙製のモデルの型紙
-- CutParts_TaraModule.ai:レーザーカットでのパーツ切り出し用のデータ
+HowToMake.md：材料・道具・作る手順を記載
+ModelPattern
 
 

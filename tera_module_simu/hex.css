@@ -1,0 +1,153 @@
+.triangle_right{
+  position: relative;
+	width:0px;
+	height:0px;
+  margin: 50px 0.5px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px #ddd;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px transparent;
+  /* transform: rotate(-45deg); */
+}
+.triangle_left{
+  position: relative;
+	width:0px;
+	height:0px;
+  margin: 100px 0.5px 0px 0.5px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px transparent;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px #ddd;
+  /* transform: rotate(-45deg) */;
+}
+.triangle_upper_left{
+  position: relative;
+	width:0px;
+	height:0px;
+  margin: 110px 0px 1px 0px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px transparent;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px #ddd;
+  transform: rotate(-120deg);
+}
+.triangle_upper_right{
+  position: relative;
+	width:0px;
+	height:0px;
+  margin: 110px 0px 0px 0px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px #ddd;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px transparent;
+  transform: rotate(120deg);
+}
+.triangle_left_lower{
+  position: absolute;
+	width:0px;
+	height:0px;
+  margin: 120px 0px 0px 30px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px transparent;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px #ddd;
+  transform: rotate(120deg);
+}
+.triangle_right_lower{
+  position: relative;
+	width:0px;
+	height:0px;
+  margin: 120px 0px 0px 60px;
+	border-top:solid 15px transparent;
+	border-right:solid 15px #ddd;
+	border-bottom:solid 15px transparent;
+	border-left:solid 15px transparent;
+  transform: rotate(-120deg);
+}
+.margin {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 0px 52.5px;
+  #background-image: url(http://csshexagon.com/img/meow.jpg);
+  #background-size: auto 161.6581px;
+  #background-position: center;
+  #box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  #border-left: solid 5px #b2b2b2;
+  #border-right: solid 5px #b2b2b2;
+}
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px 5px;
+  background-color: #bbbbbb;
+  #background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 161.6581px;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  border-left: solid 5px #b2b2b2;
+  border-right: solid 5px #b2b2b2;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 16.97px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 140.0000px;
+  height: 80.82903768654762px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+  border-top: solid 7.0711px #b2b2b2;
+  border-right: solid 7.0711px #b2b2b2;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+  border-bottom: solid 7.0711px #b2b2b2;
+  border-left: solid 7.0711px #b2b2b2;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 140.0000px;
+  height: 80.8290px;
+  z-index: 2;
+  background: inherit;
+}
